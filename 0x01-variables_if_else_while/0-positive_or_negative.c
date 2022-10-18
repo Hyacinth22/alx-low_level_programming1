@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print random numbers 
- *
+ * main - print random numbers
  * Return: 0
  */
 
@@ -13,6 +12,7 @@ int main(void)
 {
 
 		int n;
+
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 
