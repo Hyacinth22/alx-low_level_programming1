@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print random numbers
- 
+ * main - print random numbers 
  *
  * Return: 0
  */
@@ -21,7 +20,8 @@ int main(void)
 		else if (n < 0)
 			printf("%d is negative\n", n);
 		else
-			print("%d is zero\n", n);
+			printf("%d is zero\n", n);
+
 		return (0);
 
 }
